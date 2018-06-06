@@ -7,7 +7,7 @@ description: |
   19th of June 2018  
   Informatics Forum G.07  
   The University of Edinburgh
-owner: Martin Asenov # or company name
+owner: EdIntelligence # or company name
 first_published: 2018 # if migrating another site, the year of your first publish
 email: m.asenov@ed.ac.uk
 baseurl: "/fair" # the subpath of your site, e.g. /blog
