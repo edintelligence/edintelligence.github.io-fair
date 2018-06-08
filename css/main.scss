@@ -1859,3 +1859,18 @@ $baseurl: '{{ site.baseurl }}/images';
 		max-height: 200px;
 
 	}
+	span.restricted1 > img {
+		max-width: 50px;
+		max-height: 50px;
+	}
+
+
+		.half_hour {
+			height: 150px
+		}
+		.one_hour {
+			height: 300px
+		}
+		.hour_and_a_half {
+			height: 450px
+		}
