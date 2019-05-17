@@ -10,9 +10,9 @@ description: |
 owner: EdIntelligence # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: m.asenov@ed.ac.uk
-#baseurl: "/fair" # the subpath of your site, e.g. /blog
-#url: "https://edintelligence.github.io"
-url: "http://localhost:4000"
+baseurl: "/fair" # the subpath of your site, e.g. /blog
+url: "https://edintelligence.github.io"
+#url: "http://localhost:4000"
 social:
   #twitter: https://twitter.com/<username>
   #github: https://github.com/<username>
