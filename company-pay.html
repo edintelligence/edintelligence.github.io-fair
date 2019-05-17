@@ -97,12 +97,12 @@ layout: landing
 <script>
   var stripe = Stripe('pk_live_dSuxETvBtHnISCoEXYbowGaz00aHlEewvc');
 
-  var checkoutButton = document.getElementById('checkout-button-sku_F5HAlmnjYwdACr');
+ var checkoutButton = document.getElementById('checkout-button-sku_F4UJpX90gLk5dH');
   checkoutButton.addEventListener('click', function () {
     // When the customer clicks on the button, redirect
     // them to Checkout.
     stripe.redirectToCheckout({
-      items: [{sku: 'sku_F5HAlmnjYwdACr', quantity: 1}],
+        items: [{sku: 'sku_F4UJpX90gLk5dH', quantity: 1}],
 
       // Do not rely on the redirect to the successUrl for fulfilling
       // purchases, customers may not always reach the success_url after
